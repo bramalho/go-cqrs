@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS todos;
+
+CREATE TABLE todos (
+    id VARCHAR(32) PRIMARY KEY,
+    body TEXT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE NOT NULL
+);
